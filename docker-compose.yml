@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  platform_api:
+    build: ./platform_api
+
+    ports:
+      - "5000:5000"
